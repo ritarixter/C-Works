@@ -1,12 +1,11 @@
 .form__input{
   box-sizing: border-box;
-  background: rgb(142, 142, 152);
-  opacity: .2;
+  background: rgb(142, 142, 152,.2);
   border-radius: 8px 0px 0px 8px;
   padding: 13px 0 13px 16px;
   color: $primaryColor;
   width: 348px;
-  transition: opacity .2s ease-in-out;
+  transition: background .2s ease-in-out;
   outline: none;
   border: none;
   font-family: $fontFamily;
@@ -14,7 +13,7 @@
   line-height: 24px;
   letter-spacing: 0.375px;
   &:hover{
-    opacity: .3;
+    background: rgb(142, 142, 152,.3);
   }
 }
 
