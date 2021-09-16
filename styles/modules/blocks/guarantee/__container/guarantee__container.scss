@@ -1,0 +1,17 @@
+.guarantee__container{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+@media screen and (max-width:992px) {
+  .guarantee__container{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .guarantee__container{
+    margin-top: 40px;
+  }
+}

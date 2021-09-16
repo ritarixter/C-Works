@@ -1,0 +1,27 @@
+.header__subtitle{
+  margin: 0;
+  font-weight: 400;
+  font-family: $fontFamily;
+  font-size: 80px;
+  line-height: 70px;
+  padding-top: 20px;
+  margin-bottom: 230px;
+}
+
+@media screen and (max-width:992px) {
+  .header__subtitle{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 470px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header__subtitle{
+    margin-bottom: 260px;
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 10px;
+  }
+}

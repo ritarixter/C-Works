@@ -1,0 +1,16 @@
+.intro__img-1{
+  display: block;
+  min-width:448px;
+  height: auto;
+  background: url(../../../../../images/intro_1.png) no-repeat center;
+  border-radius: 10px;
+  
+}
+
+@media screen and (max-width:768px) {
+  .intro__img-1{
+    background-size: 100%;
+    min-width: 0;
+    padding-top: 51%;
+  }
+}

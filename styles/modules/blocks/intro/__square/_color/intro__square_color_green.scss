@@ -1,0 +1,24 @@
+.intro__square_color_green{
+  background: #25E197;
+  height: 552px;
+  max-width: 630px;
+  width: 100%;
+  margin-right: 20px;
+  min-width: 173px;
+  flex-shrink: 1;
+}
+
+@media screen and (max-width:992px) {
+  .intro__square_color_green{
+    height: 344px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro__square_color_green{
+    height: 124px;
+    margin-right: 0;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}

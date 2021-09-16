@@ -1,0 +1,23 @@
+.form__btn{
+  box-sizing: border-box;
+  padding: 13px 14px 13px 16px;
+  color: $primaryColor;
+  font-family: $fontFamily;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  background: #47474C;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+  width: 221px;
+}
+
+@media screen and (max-width:768px) {
+  .form__btn{
+    width: 100%;
+    max-width:221px; 
+    min-width: 51px;
+  }
+}

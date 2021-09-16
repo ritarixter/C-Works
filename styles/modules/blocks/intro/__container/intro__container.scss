@@ -1,0 +1,14 @@
+.intro__container{
+  display: flex;
+  margin-bottom: 20px;
+
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro__container{
+    flex-direction: column;
+  }
+}

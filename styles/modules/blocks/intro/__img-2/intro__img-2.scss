@@ -1,0 +1,25 @@
+.intro__img-2{
+  display: block;
+  min-width: 730px;
+  height: auto;
+  background: url(../../../../../images/intro_2.png) no-repeat center;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+@media screen and (max-width:992px) {
+  .intro__img-2{
+    max-width: 730px;
+    width: 100%;
+    min-width:455px;
+    
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro__img-2{
+    background-size: 100%;
+    min-width: 0;
+    padding-top: 75%;
+  }
+}

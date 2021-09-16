@@ -1,0 +1,10 @@
+.header__support-text{
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width:992px) {
+  .header__support-text{
+    margin-top: 10px;
+  }
+}

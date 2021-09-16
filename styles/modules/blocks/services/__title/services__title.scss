@@ -1,0 +1,17 @@
+.services__title{
+  margin: 0;
+  font-weight: 400;
+  font-family: $fontFamily;
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width:768px) {
+  .services__title{
+    font-size: 24px;
+    margin-bottom: 28px;
+    margin-top: 10px;
+  }
+}

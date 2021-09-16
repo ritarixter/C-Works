@@ -1,0 +1,33 @@
+.support__btn{
+  padding: 13px 30px;
+  background: #47474C;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: $fontFamily;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  color: $primaryColor;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width:992px) {
+  .support__btn{
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }  
+}
+
+
+@media screen and (max-width:768px) {
+  .support__btn{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 16px 30px;
+  }  
+}

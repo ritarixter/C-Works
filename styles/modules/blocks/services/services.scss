@@ -1,0 +1,10 @@
+.services{
+  display: flex;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:992px) {
+  .services{
+    flex-direction: column;
+  }
+}
