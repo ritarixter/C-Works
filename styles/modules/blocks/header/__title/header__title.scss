@@ -1,5 +1,5 @@
 .header__title{
-  margin: 0;
+  @include resetStyles(0,0);
   margin-top: 60px;
   font-weight: 400;
   font-family: $fontFamily;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .header__title{
     margin-top: 60px;
     font-size: 50px;

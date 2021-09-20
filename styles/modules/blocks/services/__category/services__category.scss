@@ -1,4 +1,5 @@
 .services__category{
+  @include resetStyles(0,0);
   font-family: $fontFamily;
   font-size: 18px;
   line-height: 18px;

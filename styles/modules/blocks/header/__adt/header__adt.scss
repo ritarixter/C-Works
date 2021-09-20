@@ -1,0 +1,17 @@
+.header__adt{
+  @include resetStyles(0,0);
+  background-color: #25E197;
+  color: #000;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: $fontFamily;
+  margin-left: 20px;
+}
+
+@media screen and (max-width:767px) {
+  .header__adt{
+    margin-left: 16px;
+  }
+}

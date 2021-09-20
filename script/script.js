@@ -1,8 +1,10 @@
-const formBtn = document.querySelectorAll('.form__btn');
+const forms = document.querySelectorAll('.form');
 
-formBtn.forEach(item => {
-  item.addEventListener('click', function(evt) {
+
+forms.forEach(item => {
+  item.addEventListener('submit', function(evt) {
     evt.preventDefault();
-    item.innerText = 'Круто, спасибо за доверие!';
+    const formBtn = item.querySelector('.form__btn');
+    formBtn.innerText = 'Круто, спасибо за доверие!';
   })
 })

@@ -1,5 +1,5 @@
-.section__title{
-  margin: 0;
+.section-title{
+  @include resetStyles(0,0);
   font-weight: 400;
   font-family: $fontFamily;
   font-size: 32px;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width:992px) {
-  .section__title{
+  .section-title{
     font-size: 20px;
     line-height: 30px;
   }
 }
 
-@media screen and (max-width:768px) {
-  .section__title{
+@media screen and (max-width:767px) {
+  .section-title{
     font-size: 12px;
     line-height: 18px;
   }

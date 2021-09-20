@@ -1,6 +1,6 @@
 .guarantee__item{
   box-sizing: border-box;
-  background: #1C1C1E;
+  background: $cardColor;
   border-radius: 10px;
   padding: 20px;
   margin-right: 20px;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .guarantee__item{
    width: 100%;
    margin-right: 0;

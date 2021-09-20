@@ -1,4 +1,7 @@
 .guarantee__container{
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   margin-top: 60px;
   justify-content: center;
@@ -10,7 +13,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .guarantee__container{
     margin-top: 40px;
   }

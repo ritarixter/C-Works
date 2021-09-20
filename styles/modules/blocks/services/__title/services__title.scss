@@ -1,5 +1,5 @@
 .services__title{
-  margin: 0;
+  @include resetStyles(0,0);
   font-weight: 400;
   font-family: $fontFamily;
   font-size: 32px;
@@ -8,7 +8,7 @@
   margin-bottom: 40px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .services__title{
     font-size: 24px;
     margin-bottom: 28px;

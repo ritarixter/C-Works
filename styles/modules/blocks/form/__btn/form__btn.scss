@@ -7,17 +7,21 @@
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.375px;
-  background: #47474C;
+  background: $thirdColor;
   border: none;
   border-radius: 0px 8px 8px 0px;
   cursor: pointer;
   width: 221px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .form__btn{
     width: 100%;
     max-width:221px; 
     min-width: 51px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
+

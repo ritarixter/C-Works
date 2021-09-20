@@ -1,5 +1,5 @@
 .responsibility__text{
-  margin: 0;
+  @include resetStyles(0,0);
   margin-bottom: 60px;
   font-family: $fontFamily;
   font-size: 32px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .responsibility__text{
     font-size: 12px;
     line-height: 18px;
