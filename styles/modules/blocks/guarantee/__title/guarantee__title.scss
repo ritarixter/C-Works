@@ -1,5 +1,5 @@
 .guarantee__title{
-  margin: 0;
+  @include resetStyles(0,0);
   margin-bottom: 38px;
   font-weight: 500;
   font-size: 18px;
@@ -8,14 +8,7 @@
   font-family: $fontFamily;
 }
 
-@media screen and (max-width:1220px) {
-  .guarantee__title{
-    font-size: 16px;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .guarantee__title{
    margin-bottom: 36px;
   }

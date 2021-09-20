@@ -1,12 +1,12 @@
 .guarantee__text{
-  margin: 0;
+  @include resetStyles(0,0);
   font-size: 15px;
   line-height: 19px;
   font-family: $fontFamily;
   color: #8E8E98;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .guarantee__text{
     font-size: 12px;
     line-height: 18px;

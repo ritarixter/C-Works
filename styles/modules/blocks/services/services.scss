@@ -1,4 +1,6 @@
 .services{
+  @include resetStyles(0,0);
+  list-style: none;
   display: flex;
   box-sizing: border-box;
 }

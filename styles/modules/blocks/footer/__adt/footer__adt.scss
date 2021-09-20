@@ -1,6 +1,5 @@
-.adt{
-  margin: 0;
-  padding: 0;
+.footer__adt{
+  @include resetStyles(0,0);
   background-color: #25E197;
   color: #000;
   border-radius: 4px;
@@ -8,4 +7,11 @@
   font-size: 12px;
   line-height: 12px;
   font-family: $fontFamily;
+  margin-left: 20px;
+}
+
+@media screen and (max-width:767px) {
+  .footer__adt{
+    margin-left: 16px;
+  }
 }

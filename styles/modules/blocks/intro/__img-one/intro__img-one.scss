@@ -1,4 +1,4 @@
-.intro__img-1{
+.intro__img-one{
   display: block;
   min-width:448px;
   height: auto;
@@ -7,8 +7,8 @@
   
 }
 
-@media screen and (max-width:768px) {
-  .intro__img-1{
+@media screen and (max-width:767px) {
+  .intro__img-one{
     background-size: 100%;
     min-width: 0;
     padding-top: 51%;

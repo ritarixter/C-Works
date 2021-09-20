@@ -1,7 +1,7 @@
 .support-text{
-  margin: 0;
+  @include resetStyles(0,0);
   font-family: $fontFamily;
   font-size: 12px;
   line-height: 18px;
-  color: #47474C;
+  color: $thirdColor;
 }

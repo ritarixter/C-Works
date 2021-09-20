@@ -1,6 +1,6 @@
 .support__btn{
   padding: 13px 30px;
-  background: #47474C;
+  background: $thirdColor;
   border-radius: 8px;
   border: none;
   outline: none;
@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .support__btn{
     margin-top: 50px;
     margin-bottom: 30px;
